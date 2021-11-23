@@ -42,6 +42,8 @@ image bg cn1= "/images/bgs/citynight.jpg"
 image bg cn2 = "/images/bgs/citynight2.jpg"
 image bg cn3 = "/images/bgs/citynight3.jpg"
 
+image bg black = "#000000"
+
 # ░▒▓████████████████████████████████████■
 ## 【 CHARACTERS 】 ░▒▓███████████████████■
 # ░▒▓████████████████████████████████████■
@@ -91,7 +93,9 @@ image cup idle = "images/characters/cup/cup1.png"
 ## 【 AUDIO 】 ░▒▓████████████████████████■
 # ░▒▓████████████████████████████████████■
 # MUSIC
-define audio.masterblaster = "audio/bgm/masterblaster.mp3"
+define music.masterblaster = "audio/bgm/masterblaster.mp3"
+define subwayw = "audio/bgm/subway.mp4"
+
 # SOUND EFFECTS
 define audio.applause = "audio/soundfx/applause.wav"
 define audio.breathing = "audio/soundfx/breathing.ogg"

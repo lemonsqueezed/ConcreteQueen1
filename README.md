@@ -1,8 +1,12 @@
-## 【 CREDITS / GAME INFO】 ░▒▓████████████████████████████████████■
+░▒▓███████████████████████████■
+【 CREDITS / GAME INFO】
+░▒▓███████████████████████████■
 
 ## "CONCRETE JUNGLE" is an indie game made during the fall (October-November) 2021 Queer Coderz camp hosted by Camp Maven, House Lives Matter (HLM), and the Hetrick-Martin Institute (HMI). It follows a shy drag queen new to the scene who, after their first performance, are immediately scouted by three different house mothers. They must choose a house and make their mother proud by participating in their first real competition.
 
-## 【 DEVELOPMENT TEAM 】 ░▒▓████████████████████████████████████■
+░▒▓███████████████████████████■
+【 DEVELOPMENT TEAM 】
+░▒▓███████████████████████████■
 # We all wore many hats during the process. This game is a labor of love. It is not perfect by any means, but we did our best in the time we had, and hope you appreciate it and see our potential. Thank you everyone who has been with us for this journey!
 
 ## PROGRAMMING
@@ -26,7 +30,9 @@
 
 ## ALSO MADE POSSIBLE BY THE BALLROOM COMMUNITY AND EVERYTHING THEY'VE DONE FOR THE LARGER LGBT COMMUNITY. WE SEE YOU.
 
-## 【 BACKGROUND IMAGES 】 ░▒▓████████████████████████████████████■
+░▒▓███████████████████████████■
+【 BACKGROUND IMAGES 】 
+░▒▓███████████████████████████■
 ## STATS BG (game/images/stats/statsbg.jpg)
 # https://unsplash.com/photos/5AW7otY6Ocs
 ## OPENING SCENE (game/images/bgs/ballroomy.jpg)
@@ -54,14 +60,17 @@
 # CITY NIGHT 3 (game/images/bgs/citynight3.jpg)
 ## https://unsplash.com/photos/1mvRowZSXIk
 
-## 【 MUSIC 】 ░▒▓████████████████████████████████████■
+░▒▓███████████████████████████■
+【 MUSIC 】
+░▒▓███████████████████████████■
 ## Master Blaster By MikeQ
 #
 ## Countdown by Divoli S'vere
 # https://open.spotify.com/track/4IPiTmuA9R3COoTjfnB8OH?si=9879d9f52dcf4c72
 
-
-## 【 SOUND FX 】 ░▒▓████████████████████████████████████■
+░▒▓███████████████████████████■
+【 SOUND FX 】
+░▒▓███████████████████████████■
 
 ## APPAULSE
 # https://freesound.org/people/ERH/sounds/31650/

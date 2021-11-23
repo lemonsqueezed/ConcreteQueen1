@@ -9,9 +9,9 @@ default mcn = None
 ## default money = total * 100
 
 label start:
-
+scene bg black
 show screen gameUI
-play sound applause volume .8 fadein .5 fadeout .5
+play sound applause fadein .5 fadeout .5
 stop sound
 nar "Sore legs. Nausea. Lightheaded. Tired."
 nar "But you couldn't be happier"
@@ -49,7 +49,7 @@ nar "Whatever. Post workout days feel the best anyway."
 nar "Just gotta go to the locker, clean up and pick up your bag, and take the subway home--"
 
 ## MAKE ??? CHARACTER
-
+play sound heelwalk
 "HEY YOU!"
 mcn "Huh?!"
 nar "You're a little startled and annoyed, wanting to go home more than anything"
@@ -149,31 +149,57 @@ swa "Can we please cut to the chase?"
 swa "It's summer, you know! I'm burning up in my immaculate and elegant drip!"
 nar "Swanna gestures dramatically to her thick velvet dress."
 nar "She then gestures towards her shoes and lifts one foot back for emphasis. The heels look stacked high enough to go to heaven! Jeez!"
+nar "(They're also stacked higher than the odds against us winning this game jam!)"
 ven "Well it's certainly not *my* fault that SOMEBODY sacrifices erogenomics for shoes that are one step away from being a torture device..."
 nar "Swanna gives Venus a glare before continuing"
 swa "So, we want you to join one of our houses."
 swa "Full transparency, we're all 'rival' houses..."
-swa "...so we thought it would only be fair for you to get to hear us all out at once, rather than making it a race of who could get to you first."
+swa "...so we thought it would only be fair for you to get to hear us all out at once,"
+swa "rather than making it a race of who could get to you first."
 mcn "Uhm, thank you?"
-ven "So, anyway, which of our houses do you wanna join?"
-"Choose wisely. And say it with your chest!"
-
 ## CHOOSING HOUSE
 label choice:
+ven "So, anyway, which of our houses do you wanna hear more about...and maybe join???"
 menu:
-    "House of Mirrors. Elegant, refined, and specializing in fashion. You KNOW everyone in this house got a walk-in closet and color-coordinated room. It's those kids who color-code and write in neat cursive...but grown up...and gay. Good house if you want to stress over your outfits more than usual and give up flexability, and therefore some of your voguing ability. At least you'll make a good trophy spouse!":
+    "Choose wisely"
+    "House of Mirrors, Swanna Song's House of Fashion":
+        jump swach
+    "House of Frenzy, Venus Fly's House of Vogue":
+        jump vech
+    "House of Hearts, Cupidia's house":
+        jump cuch
+label swach:
+nar "Fashion Focused Elegant, refined, and specializing in fashion. You KNOW everyone in this house got a walk-in closet and color-coordinated room. It's those kids who color-code and write in neat cursive...but grown up...and gay. Good house if you want to stress over your outfits more than usual and give up flexability, and therefore some of your voguing ability. At least you'll make a good trophy spouse!"
+swa "Get in babe, we're going shopping?"
+menu:
+    "I'm still thinking":
+        swa "Take your time. I trust you'll make the right choice"
+        jump choice
+    "Hell yeah!":
         $ fashion += 1
         $ house = "mirrors"
         $ momn = "Swanna Song"
         jump mirrorsroute
-    "House of Frenzy. Venus Fly. Vogue-focused. Flashy and mobile. Good house if you're unafraid of twisting your ankles, and every other body part that it's possible to twist. Great house if you're the person who hogs the center of the dance floor at parties. Not the house for you if you're a avante garde fashion nut. Unless you're okay with all your outfits being teared at compromising seams when you do dips...":
-        $ vogue += 1
-        $ house = "frenzy"
-        $ momn = "Venus"
-        jump frenzyroute
-    "House of Hearts. Cupidia's house. Siren-centered. You have a feeling everyone in this house has dated eachother at least once. Maybe this would be good for getting you out of your shell? Maybe you're not the best at fashion or vogue, but your charisma renders you a confidence imposter good enough to get away with shoplifting from the White House giftstore by claiming you're actually the president's second cousin.":
+label cuch:
+nar "Siren-centered. You have a feeling everyone in this house has dated eachother at least once."
+"Maybe this would be good for getting you out of your shell? Maybe you're not the best at fashion or vogue, but your charisma renders you a confidence imposter"
+"good enough to get away with shoplifting from the White House giftstore by claiming you're actually the president's second cousin."
+menu:
+    "I'm still thinking":
+        jump choice
+    "Hell yeah!":
         $ siren += 1
         $ house = "hearts"
         $ momn = "Cupidia"
         jump heartsroute
+label vech:
+nar "Vogue-focused. Flashy and mobile. Good house if you're unafraid of twisting your ankles, and every other body part that it's possible to twist. Great house if you're the person who hogs the center of the dance floor at parties. Not the house for you if you're a avante garde fashion nut. Unless you're okay with all your outfits being teared at compromising seams when you do dips..."
+menu:
+    "I'm still thinking":
+        jump choice
+    "Hell yeah!":
+        $ vogue += 1
+        $ house = "frenzy"
+        $ momn = "Venus Fly"
+        jump frenzyroute
 return

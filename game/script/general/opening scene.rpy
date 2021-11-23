@@ -169,7 +169,13 @@ menu:
     "House of Hearts, Cupidia's house":
         jump cuch
 label swach:
-nar "Fashion Focused Elegant, refined, and specializing in fashion. You KNOW everyone in this house got a walk-in closet and color-coordinated room. It's those kids who color-code and write in neat cursive...but grown up...and gay. Good house if you want to stress over your outfits more than usual and give up flexability, and therefore some of your voguing ability. At least you'll make a good trophy spouse!"
+nar "Fashion Focused"
+"Elegant, refined, and specializing in fashion. You KNOW everyone in this house got a walk-in closet and color-coordinated room."
+"It's those kids who color-code and write in neat cursive...but grown up"
+"...and gay."
+"Good house if you want to stress over your outfits more than usual and give up flexability, "
+"and therefore some of your voguing ability."
+"At least you'll make a good trophy spouse!"
 swa "Get in babe, we're going shopping?"
 menu:
     "I'm still thinking":
@@ -181,7 +187,8 @@ menu:
         $ momn = "Swanna Song"
         jump mirrorsroute
 label cuch:
-nar "Siren-centered. You have a feeling everyone in this house has dated eachother at least once."
+nar "Siren-centered."
+"You have a feeling everyone in this house has dated eachother at least once."
 "Maybe this would be good for getting you out of your shell? Maybe you're not the best at fashion or vogue, but your charisma renders you a confidence imposter"
 "good enough to get away with shoplifting from the White House giftstore by claiming you're actually the president's second cousin."
 menu:
@@ -193,7 +200,11 @@ menu:
         $ momn = "Cupidia"
         jump heartsroute
 label vech:
-nar "Vogue-focused. Flashy and mobile. Good house if you're unafraid of twisting your ankles, and every other body part that it's possible to twist. Great house if you're the person who hogs the center of the dance floor at parties. Not the house for you if you're a avante garde fashion nut. Unless you're okay with all your outfits being teared at compromising seams when you do dips..."
+nar "Vogue-focused. Flashy and mobile."
+"Good house if you're unafraid of twisting your ankles, and every other body part that's possible to twist."
+"Great house if you're the person who hogs the center of the dance floor at parties."
+"Not the house for you if you're a avante garde fashion nut."
+"Unless you're okay with all your outfits being teared at compromising seams when you do dips..."
 menu:
     "I'm still thinking":
         jump choice

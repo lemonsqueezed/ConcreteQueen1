@@ -77,7 +77,6 @@ menu:
 ven "I'm so sorry, let me introduce everyone..."
 ven "I'm Venus Fly,"
 ven "This is Swanna Song"
-ven "and this...creature is Cupidia"
 ven "and is Cupidia"
 
 swa "We all absolutely LOVED your performance"

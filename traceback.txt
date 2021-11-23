@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script/general/opening scene.rpy", line 74, in script
+    mcn "Uhhh yeah, am I in trouble or something?"
+Exception: Sayer 'mcn' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script/general/opening scene.rpy", line 74, in script
+    mcn "Uhhh yeah, am I in trouble or something?"
+  File "/Users/hal9000/Desktop/renpy-7.4.10-sdk/renpy/ast.py", line 681, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/hal9000/Desktop/renpy-7.4.10-sdk/renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'mcn' is not defined.
+
+Darwin-21.1.0-x86_64-i386-64bit
+Ren'Py 7.4.10.2178
+CONCRETE QUEEN! 
+Mon Nov 22 22:20:38 2021
